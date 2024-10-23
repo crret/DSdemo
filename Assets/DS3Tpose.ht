@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DS3Tpose
+  m_BoneTemplate:
+    Chest: Spine1
+    Head: Head
+    Hips: RootPos
+    Left Index Distal: R_Finger12
+    Left Index Intermediate: R_Finger11
+    Left Index Proximal: R_Finger1
+    Left Little Distal: R_Finger42
+    Left Little Intermediate: R_Finger41
+    Left Little Proximal: R_Finger4
+    Left Middle Distal: R_Finger22
+    Left Middle Intermediate: R_Finger21
+    Left Middle Proximal: R_Finger2
+    Left Ring Distal: R_Finger32
+    Left Ring Intermediate: R_Finger31
+    Left Ring Proximal: R_Finger3
+    Left Thumb Distal: R_Finger02
+    Left Thumb Intermediate: R_Finger01
+    Left Thumb Proximal: R_Finger0
+    LeftFoot: R_Foot
+    LeftHand: R_Hand
+    LeftLowerArm: R_Forearm
+    LeftLowerLeg: R_Calf
+    LeftShoulder: R_Clavicle
+    LeftToes: R_Toe0
+    LeftUpperArm: R_UpperArm
+    LeftUpperLeg: R_Thigh
+    Neck: Neck
+    Right Index Distal: L_Finger12
+    Right Index Intermediate: L_Finger11
+    Right Index Proximal: L_Finger1
+    Right Little Distal: L_Finger42
+    Right Little Intermediate: L_Finger41
+    Right Little Proximal: L_Finger4
+    Right Middle Distal: L_Finger22
+    Right Middle Intermediate: L_Finger21
+    Right Middle Proximal: L_Finger2
+    Right Ring Distal: L_Finger32
+    Right Ring Intermediate: L_Finger31
+    Right Ring Proximal: L_Finger3
+    Right Thumb Distal: L_Finger02
+    Right Thumb Intermediate: L_Finger01
+    Right Thumb Proximal: L_Finger0
+    RightFoot: L_Foot
+    RightHand: L_Hand
+    RightLowerArm: L_Forearm
+    RightLowerLeg: L_Calf
+    RightShoulder: L_Clavicle
+    RightToes: L_Toe0
+    RightUpperArm: L_UpperArm
+    RightUpperLeg: L_Thigh
+    Spine: Spine
+    UpperChest: Spine2

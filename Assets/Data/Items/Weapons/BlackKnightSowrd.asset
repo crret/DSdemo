@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76aa24c2ec4ae646b848d5b5962f9fd, type: 3}
+  m_Name: BlackKnightSowrd
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: fed4045a95fb30f478837955de93e7e4, type: 3}
+  itemName: BlackKnightSword
+  modelPefab: {fileID: 6907482850962375212, guid: 6b97ba9830a166f408fd2f81ba34b6bc, type: 3}
+  isUnarmed: 0
+  weaponID: 6250
+  Right_Hand_Idle: a002_00000
+  Left_Hand_Idle: 
+  Two_Hand_Idle: a012_00000
+  Right_Hand_Move: a002_20100
+  Right_Hand_Run: a002_20200
+  Two_Hand_Move: a012_20100
+  Two_Hand_Run: a012_20200
+  RH_Light_Attack_01: a025_30000
+  RH_Light_Attack_02: a025_30010
+  RH_Light_Attack_03: a025_30020
+  RH_LightDash: a025_30500
+  RH_HeavySubStart_Attack: a080_30330
+  RH_HeavyStart_Attack_01: a080_30320
+  RH_HeavyEnd_Attack_01: a080_30321
+  RH_HeavyStart_Attack_02: a080_30340
+  RH_HeavyEnd_Attack_02: a080_30341
+  RH_LightStep: a025_30900
+  Change: 
+  TH_Light_Attack_01: a025_34000
+  TH_Light_Attack_02: a025_34010
+  TH_Light_Attack_03: a025_34020
+  TH_Light_Dash: 
+  TH_HeavySubStart_Attack: a080_34330
+  TH_HeavyStart_Attack_01: a080_34320
+  TH_HeavyEnd_Attack_01: a080_34321
+  TH_HeavyStart_Attack_02: a025_34340
+  TH_HeavyEnd_Attack_02: a025_34341
+  TH_LightStep: 
+  baseStamina: 0
+  lightAttackMultiplier: 0
+  heavyAttackMultiplier: 0

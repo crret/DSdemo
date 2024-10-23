@@ -1,0 +1,91 @@
+ManifestFileVersion: 0
+CRC: 1274314553
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e07942a623612f93998ac4c6cba82e21
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c33d3594fb840798e3bd468c6c9d34d3
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e07942a623612f93998ac4c6cba82e21
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ds3anim/a023/a023_30500.anim
+- Assets/ds3anim/a023/a023_30321.anim
+- Assets/ds3anim/a010/a010_00000Transition.anim
+- Assets/ds3anim/a080/a080_30330.anim
+- Assets/ds3anim/a025/a025_30500.anim
+- Assets/ds3anim/a012/a012_20200.anim
+- Assets/ds3anim/a012/a012_00000Transition.anim
+- Assets/ds3anim/a054/a054_30341.anim
+- Assets/ds3anim/a000/a000_00000Transition.anim
+- Assets/ds3anim/a000/a000_20000Transition.anim
+- Assets/ds3anim/a025/a025_30000.anim
+- Assets/ds3anim/a054/a054_34340.anim
+- Assets/ds3anim/a010/a010_20200Transition.anim
+- Assets/ds3anim/a025/a025_34341.anim
+- Assets/ds3anim/a023/a023_32000.anim
+- Assets/ds3anim/a002/a002_20200Transition.anim
+- Assets/ds3anim/a025/a025_34340.anim
+- Assets/ds3anim/a000/a000_27102.anim
+- Assets/ds3anim/a080/a080_30321.anim
+- Assets/ds3anim/a080/a080_30320.anim
+- Assets/ds3anim/a010/a010_20100Transition.anim
+- Assets/ds3anim/a000/a000_27101.anim
+- Assets/ds3anim/a025/a025_34010.anim
+- Assets/ds3anim/a000/a000_29006.anim
+- Assets/ds3anim/a012/a012_20100.anim
+- Assets/ds3anim/a002/a002_00000Transition.anim
+- Assets/ds3anim/a012/a012_20100Transition.anim
+- Assets/ds3anim/a023/a023_34500.anim
+- Assets/ds3anim/a012/a012_20200Transition.anim
+- Assets/ds3anim/a080/a080_34321.anim
+- Assets/ds3anim/a002/a002_20200.anim
+- Assets/ds3anim/a025/a025_30010.anim
+- Assets/ds3anim/a000/a000_20000.anim
+- Assets/ds3anim/a023/a023_30900.anim
+- Assets/ds3anim/a023/a023_30000.anim
+- Assets/ds3anim/a000/a000_20200.anim
+- Assets/ds3anim/a023/a023_30020.anim
+- Assets/ds3anim/a025/a025_30900.anim
+- Assets/ds3anim/a002/a002_20100Transition.anim
+- Assets/ds3anim/a080/a080_30341.anim
+- Assets/ds3anim/a054/a054_34321.anim
+- Assets/ds3anim/a023/a023_34010.anim
+- Assets/ds3anim/a000/a000_20100.anim
+- Assets/ds3anim/a002/a002_26020.anim
+- Assets/ds3anim/a080/a080_34330.anim
+- Assets/ds3anim/a025/a025_30020.anim
+- Assets/ds3anim/a025/a025_34000.anim
+- Assets/ds3anim/a080/a080_34320.anim
+- Assets/ds3anim/a010/a010_00000.anim
+- Assets/ds3anim/a023/a023_32030.anim
+- Assets/ds3anim/a054/a054_34330.anim
+- Assets/ds3anim/a054/a054_30340.anim
+- Assets/ds3anim/a023/a023_30330.anim
+- Assets/ds3anim/a023/a023_30010.anim
+- Assets/ds3anim/a023/a023_30320.anim
+- Assets/ds3anim/a012/a012_00000.anim
+- Assets/ds3anim/a080/a080_30340.anim
+- Assets/ds3anim/a023/a023_34000.anim
+- Assets/ds3anim/a000/a000_20200Transition.anim
+- Assets/ds3anim/a010/a010_20200.anim
+- Assets/ds3anim/a000/a000_27103.anim
+- Assets/ds3anim/a002/a002_20100.anim
+- Assets/ds3anim/a000/a000_00000.anim
+- Assets/ds3anim/a010/a010_20100.anim
+- Assets/ds3anim/a025/a025_34020.anim
+- Assets/ds3anim/a054/a054_34341.anim
+- Assets/ds3anim/a023/a023_34020.anim
+- Assets/ds3anim/a002/a002_00000.anim
+- Assets/ds3anim/a054/a054_34320.anim
+- Assets/ds3anim/a000/a000_22200.anim
+- Assets/ds3anim/a000/a000_20100Transition.anim
+- Assets/ds3anim/a000/a000_27000.anim
+Dependencies: []

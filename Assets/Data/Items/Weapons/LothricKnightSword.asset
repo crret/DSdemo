@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76aa24c2ec4ae646b848d5b5962f9fd, type: 3}
+  m_Name: LothricKnightSword
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: d7fa6954e6775dc4fbeac66e42c29134, type: 3}
+  itemName: LothricKnightSword
+  modelPefab: {fileID: 3285543288801629073, guid: 5b1dd7611a0918841bd43620e59dd44a, type: 3}
+  isUnarmed: 0
+  weaponID: 2060
+  Right_Hand_Idle: a000_00000
+  Left_Hand_Idle: 
+  Two_Hand_Idle: a010_00000
+  Right_Hand_Move: a000_20100
+  Right_Hand_Run: a000_20200
+  Two_Hand_Move: a010_20100
+  Two_Hand_Run: a010_20200
+  RH_Light_Attack_01: a023_30000
+  RH_Light_Attack_02: a023_30010
+  RH_Light_Attack_03: a023_30020
+  RH_LightDash: a023_30500
+  RH_HeavySubStart_Attack: a023_30330
+  RH_HeavyStart_Attack_01: a023_30320
+  RH_HeavyEnd_Attack_01: a023_30321
+  RH_HeavyStart_Attack_02: a054_30340
+  RH_HeavyEnd_Attack_02: a054_30341
+  RH_LightStep: a023_30900
+  LH_Light_Attack_01: 
+  LH_Light_Attack_02: 
+  Change: 
+  TH_Light_Attack_01: a023_34000
+  TH_Light_Attack_02: a023_34010
+  TH_Light_Attack_03: a023_34020
+  TH_Light_Dash: a023_34500
+  TH_HeavySubStart_Attack: a054_34330
+  TH_HeavyStart_Attack_01: a054_34320
+  TH_HeavyEnd_Attack_01: a054_34321
+  TH_HeavyStart_Attack_02: a054_34340
+  TH_HeavyEnd_Attack_02: a054_34341
+  TH_LightStep: 
+  baseStamina: 0
+  lightAttackMultiplier: 0
+  heavyAttackMultiplier: 0

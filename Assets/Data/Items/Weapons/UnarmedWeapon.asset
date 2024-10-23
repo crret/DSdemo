@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76aa24c2ec4ae646b848d5b5962f9fd, type: 3}
+  m_Name: UnarmedWeapon
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 0}
+  itemName: punch
+  modelPefab: {fileID: 8304906331565776976, guid: 149f2f45d9641d847af13ed79038b7aa, type: 3}
+  isUnarmed: 1
+  weaponID: 0
+  Right_Hand_Idle: a000_00000
+  Left_Hand_Idle: 
+  Two_Hand_Idle: 
+  Right_Hand_Move: a000_20100
+  Right_Hand_Run: a000_20200
+  Two_Hand_Move: 
+  Two_Hand_Run: 
+  RH_Light_Attack_01: 
+  RH_Light_Attack_02: 
+  RH_Light_Attack_03: 
+  RH_LightDash: 
+  RH_HeavySubStart_Attack: 
+  RH_HeavyStart_Attack_01: 
+  RH_HeavyEnd_Attack_01: 
+  RH_HeavyStart_Attack_02: 
+  RH_HeavyEnd_Attack_02: 
+  RH_LightStep: 
+  LH_Light_Attack_01: 
+  LH_Light_Attack_02: 
+  Change: 
+  TH_Light_Attack_01: 
+  TH_Light_Attack_02: 
+  TH_Light_Attack_03: 
+  TH_Light_Dash: 
+  TH_HeavySubStart_Attack: 
+  TH_HeavyStart_Attack_01: 
+  TH_HeavyEnd_Attack_01: 
+  TH_HeavyStart_Attack_02: 
+  TH_HeavyEnd_Attack_02: 
+  TH_LightStep: 
+  baseStamina: 10
+  lightAttackMultiplier: 1
+  heavyAttackMultiplier: 1.4

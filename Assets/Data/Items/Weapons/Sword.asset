@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76aa24c2ec4ae646b848d5b5962f9fd, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: ca16dd2c62a713a43853891f66a3644e, type: 3}
+  itemName: Sword
+  modelPefab: {fileID: 6273061089031058226, guid: 0092ce5f75743c94da8aaed498bf1a12, type: 3}
+  isUnarmed: 0
+  Right_Hand_Idle: a000_00000
+  Left_Hand_Idle: 
+  Two_Hand_Idle: a010_00000
+  Right_Hand_Run: a000_20100
+  Two_Hand_Run: a010_20100
+  OH_Light_Attack_01: 023_30020
+  OH_Light_Attack_02: 023_30010
+  OH_Light_Attack_03: 
+  OH_Heavy_Attack_01: 
+  OH_Heavy_Attack_02: 
+  baseStamina: 20
+  lightAttackMultiplier: 1
+  heavyAttackMultiplier: 2

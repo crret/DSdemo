@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 2040539099
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: animations
+      Dependencies: {}
