@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 501714528
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a558481cb616150a5f249d5315d38305
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bdc9354f965d20741c9e01eb2531b698
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a558481cb616150a5f249d5315d38305
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9fec33f21cd14b346acb725061314fb0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 492ce0901de0f774ab09d6347932cfca, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AnimationClipEvents/5b5a6d22-bf96-4ed4-9a32-0b7e710201ed.asset
+- Assets/AnimationClipEvents/6bcdf2f9-4db8-4eeb-8fc6-8ec75f66a1d6.asset
+- Assets/AnimationClipEvents/95fca267-e469-4c61-b5d3-214d783a604d.asset
+- Assets/AnimationClipEvents/ef27e0fc-6a13-4142-be87-5451836d554e.asset
+- Assets/AnimationClipEvents/44d3a404-c451-4de2-a1ef-05ede293611d.asset
+- Assets/AnimationClipEvents/c67fd868-b85f-4e93-a03c-d7bc60101b8d.asset
+- Assets/AnimationClipEvents/9039bc40-b4e6-46b5-991f-f3a225f1c228.asset
+Dependencies:
+- D:/DSdemo/AssetBundles/PC/animations

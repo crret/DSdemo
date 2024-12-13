@@ -1,0 +1,63 @@
+
+
+
+.unity-base-slider {
+    background-image: url("../UI/empty.png"); /* 替换为实际图标路径 */
+    width: 20px; /* 根据图标大小调整 */
+    height: 20px;
+ 
+}
+
+.unity-min-max-slider__dragger
+{
+     background-image: url("../UI/empty.png");
+    -unity-slice-left: 2 ;
+    -unity-slice-right: 2 ;
+    -unity-slice-top: 20;
+    -unity-slice-bottom: 20;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 600;
+}
+.unity-base-field__label
+{
+    min-width: 0;
+    background-size: 0;
+}
+.unity-min-max-slider__tracker
+{
+    
+    top:0;
+    flex-grow: 1;
+    margin: 0 0 0 0;
+}
+
+.multi-handle-slider {
+    position: relative;
+    height: 20px;
+    width: 100%;
+}
+
+.slider-track {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #cccccc;
+    transform: translateY(-50%);
+}
+
+.slider-dragger {
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    height: 20px;
+    background-color: #ff0000;
+    border-radius: 5px;
+    transform: translateY(-50%);
+    cursor: link;
+}

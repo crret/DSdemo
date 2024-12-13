@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 492ce0901de0f774ab09d6347932cfca, type: 3}
+  m_Name: 95fca267-e469-4c61-b5d3-214d783a604d
+  m_EditorClassIdentifier: 
+  animationClip: {fileID: 7400000, guid: 8e7ac6837fdba0546a12bb387a8bc078, type: 2}
+  StartFrame: 28
+  EndFrame: 38
+  stopCoroutineIfAnimExit: 1
+  isCoroutineRunning: 0
+  clipEventType: 0
+  setIKType: 0

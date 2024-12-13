@@ -1,7 +1,14 @@
 ManifestFileVersion: 0
-CRC: 2040539099
+CRC: 3569509665
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: animations
       Dependencies: {}
+    Info_1:
+      Name: cube
+      Dependencies: {}
+    Info_2:
+      Name: clipevent
+      Dependencies:
+        Dependency_0: animations

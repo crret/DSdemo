@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 6a60834acce191d4fb9e98022993d674
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - TrackStyle: {fileID: 11400000, guid: 7a9f980f5b3084e40abf27841e8e76b0, type: 2}
+  - BoxStyle: {fileID: 11400000, guid: 9eabe92a950d46f418ae55bfa7bedc21, type: 2}
+  - addTrackStyle: {fileID: 11400000, guid: 279d01bd654ff0f42ac7744daecced30, type: 2}
+  - timeStyle: {fileID: 11400000, guid: 64b22708f049e5f4a9e2c5ad72945e91, type: 2}
+  - curTimeLineStyle: {fileID: 11400000, guid: f5ce9df5721ad76429279583f2d80051, type: 2}
+  - deleteTrackStyle: {fileID: 11400000, guid: 5de32c9146b30a848ac2f6025719fd13, type: 2}
+  - setIKStyle: {fileID: 11400000, guid: 52e668ba9d4e49940b5c22d8a46048bd, type: 2}
+  - clipLabelStyle: {fileID: 11400000, guid: 1772408f0ed4550428782ebe0db1316a, type: 2}
+  - currentTracksList: {instanceID: 0}
+  - eventTypeList: {fileID: 11400000, guid: b2737ec03380953449992c516da0dcaa, type: 2}
+  - currentAnimationClip: {instanceID: 0}
+  - displayAnimationClip: {instanceID: 0}
+  - clipEventsConfig: {fileID: 11400000, guid: 6446fadfe3ac91f4f94fd731b513fa8a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

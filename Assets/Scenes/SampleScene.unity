@@ -4048,6 +4048,84 @@ Transform:
   m_Father: {fileID: 1332852319}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &748470213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 748470214}
+  - component: {fileID: 748470217}
+  - component: {fileID: 748470216}
+  - component: {fileID: 748470215}
+  m_Layer: 18
+  m_Name: ColliderBlocker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &748470214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748470213}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 335654381}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &748470215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748470213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb2fa64485b3ff47924b3fc202d8d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootCollider: {fileID: 1820097135}
+  childCollider: {fileID: 748470217}
+--- !u!54 &748470216
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748470213}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &748470217
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748470213}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &753735456
 GameObject:
   m_ObjectHideFlags: 0
@@ -4994,6 +5072,11 @@ MonoBehaviour:
 --- !u!4 &1007187422 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8030602423064484996, guid: 4a6250e067f21b84d824780bf51d6990, type: 3}
+  m_PrefabInstance: {fileID: 2146050165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1007187423 stripped
+CapsuleCollider:
+  m_CorrespondingSourceObject: {fileID: 8030602423064484995, guid: 4a6250e067f21b84d824780bf51d6990, type: 3}
   m_PrefabInstance: {fileID: 2146050165}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1017064315
@@ -6055,6 +6138,84 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2020659452545605951, guid: 0a57add0b74b215439a116b1e261a85d, type: 3}
   m_PrefabInstance: {fileID: 2020659452344372439}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1475602004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1475602005}
+  - component: {fileID: 1475602008}
+  - component: {fileID: 1475602007}
+  - component: {fileID: 1475602006}
+  m_Layer: 18
+  m_Name: ColliderBlocker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1475602005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475602004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1007187422}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1475602006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475602004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb2fa64485b3ff47924b3fc202d8d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootCollider: {fileID: 1007187423}
+  childCollider: {fileID: 1475602008}
+--- !u!54 &1475602007
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475602004}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &1475602008
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475602004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &1491109124
 GameObject:
   m_ObjectHideFlags: 0
@@ -6770,6 +6931,27 @@ MonoBehaviour:
   interactBoolList: {fileID: 0}
   weaponSlotManager: {fileID: 0}
   weight: 0
+--- !u!95 &1793134963 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2020659452773951813, guid: 0a57add0b74b215439a116b1e261a85d, type: 3}
+  m_PrefabInstance: {fileID: 2020659452344372439}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1793134964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793134946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064c86c74dd0e3b4c8b935bfd5c25ca4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actorController: {fileID: 1793134953}
+  anim: {fileID: 1793134963}
+  clip: {fileID: 0}
+  animationData: {fileID: 11400000, guid: 21418a5b492f8b4469d65280b408e4b2, type: 2}
 --- !u!1 &1810675766
 GameObject:
   m_ObjectHideFlags: 0
@@ -6899,6 +7081,11 @@ MonoBehaviour:
   playerManager: {fileID: 0}
   actorController: {fileID: 0}
   playerAttacker: {fileID: 0}
+--- !u!136 &1820097135 stripped
+CapsuleCollider:
+  m_CorrespondingSourceObject: {fileID: 2020659452545605949, guid: 0a57add0b74b215439a116b1e261a85d, type: 3}
+  m_PrefabInstance: {fileID: 2020659452344372439}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1828828426
 GameObject:
   m_ObjectHideFlags: 0
@@ -8124,36 +8311,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   model: {fileID: 2136302701}
---- !u!136 &2136302706
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136302701}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
---- !u!54 &2136302707
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136302701}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &2138191269 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8030602422682466919, guid: 4a6250e067f21b84d824780bf51d6990, type: 3}
@@ -9977,12 +10134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2020659452773951813, guid: 0a57add0b74b215439a116b1e261a85d, type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftArm'\n\tTransform
-        'mixamorig:RightHand'\n\tTransform 'mixamorig:LeftForeArm'\n\tTransform 'mixamorig:RightForeArm'\n\tTransform
-        'mixamorig:LeftHand'\n\tTransform 'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftArm'\n\tTransform
-        'mixamorig:RightHand'\n\tTransform 'mixamorig:LeftForeArm'\n\tand more ..."
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a57add0b74b215439a116b1e261a85d, type: 3}
